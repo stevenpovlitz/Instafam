@@ -15,6 +15,7 @@ import ParseUI
 class HomeViewController: UIViewController {
     
     // outlet for tableView
+    @IBOutlet weak var TableView: UITableView!
     
     // var (ex: for array of posts)
     
@@ -26,4 +27,9 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
+    @IBAction func onComposeButton(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("loginSegue", sender: nil)
+        
+    }
 }
