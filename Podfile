@@ -5,5 +5,6 @@ use_frameworks!
 
 target 'InstaFam' do
     pod 'Parse'
+    pod 'ParseUI'
 end
 

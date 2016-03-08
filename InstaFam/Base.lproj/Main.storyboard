@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="1073" y="362"/>
         </scene>
-        <!--View Controller-->
+        <!--Capture View Controller-->
         <scene sceneID="vpw-fI-aVb">
             <objects>
-                <viewController id="OAE-cO-mLO" sceneMemberID="viewController">
+                <viewController id="OAE-cO-mLO" customClass="CaptureViewController" customModule="InstaFam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0zj-Eo-ddm"/>
                         <viewControllerLayoutGuide type="bottom" id="04v-tt-BlJ"/>

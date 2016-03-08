@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A9C5BE5A91FCC3D305FF5D08 /* Pods_InstaFam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B0F95CC8B36289B835F79 /* Pods_InstaFam.framework */; };
+		B025F0E81C8EB48500963D01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B025F0E71C8EB48500963D01 /* HomeViewController.swift */; };
 		B0533BD41C8E9AAD002F3C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0533BD31C8E9AAD002F3C82 /* AppDelegate.swift */; };
 		B0533BD61C8E9AAD002F3C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0533BD51C8E9AAD002F3C82 /* ViewController.swift */; };
 		B0533BD91C8E9AAD002F3C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0533BD71C8E9AAD002F3C82 /* Main.storyboard */; };
 		B0533BDB1C8E9AAD002F3C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0533BDA1C8E9AAD002F3C82 /* Assets.xcassets */; };
 		B0533BDE1C8E9AAD002F3C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0533BDC1C8E9AAD002F3C82 /* LaunchScreen.storyboard */; };
 		B05945DC1C8E9D6B00C435A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */; };
+		B05945DF1C8EB14700C435A3 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05945DE1C8EB14700C435A3 /* CaptureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A35D8EC716134D324268A8A /* Pods-InstaFam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam.debug.xcconfig"; sourceTree = "<group>"; };
 		A03781028AA44B3BB4EEC0D9 /* Pods-InstaFam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFam.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam.release.xcconfig"; sourceTree = "<group>"; };
+		B025F0E71C8EB48500963D01 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B0533BD01C8E9AAD002F3C82 /* InstaFam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0533BD31C8E9AAD002F3C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0533BD51C8E9AAD002F3C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		B0533BDD1C8E9AAD002F3C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0533BDF1C8E9AAD002F3C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B05945DE1C8EB14700C435A3 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		CE0B0F95CC8B36289B835F79 /* Pods_InstaFam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 			children = (
 				B0533BD51C8E9AAD002F3C82 /* ViewController.swift */,
 				B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */,
+				B05945DE1C8EB14700C435A3 /* CaptureViewController.swift */,
+				B025F0E71C8EB48500963D01 /* HomeViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -222,7 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B025F0E81C8EB48500963D01 /* HomeViewController.swift in Sources */,
 				B05945DC1C8E9D6B00C435A3 /* LoginViewController.swift in Sources */,
+				B05945DF1C8EB14700C435A3 /* CaptureViewController.swift in Sources */,
 				B0533BD61C8E9AAD002F3C82 /* ViewController.swift in Sources */,
 				B0533BD41C8E9AAD002F3C82 /* AppDelegate.swift in Sources */,
 			);

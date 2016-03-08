@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-InstaFam/Bolts.framework"
   install_framework "Pods-InstaFam/Parse.framework"
+  install_framework "Pods-InstaFam/ParseUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-InstaFam/Bolts.framework"
   install_framework "Pods-InstaFam/Parse.framework"
+  install_framework "Pods-InstaFam/ParseUI.framework"
 fi
