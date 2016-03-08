@@ -80,15 +80,23 @@
 		B0533BD21C8E9AAD002F3C82 /* InstaFam */ = {
 			isa = PBXGroup;
 			children = (
+				B05945DD1C8EA70300C435A3 /* View Controllers */,
 				B0533BD31C8E9AAD002F3C82 /* AppDelegate.swift */,
-				B0533BD51C8E9AAD002F3C82 /* ViewController.swift */,
 				B0533BD71C8E9AAD002F3C82 /* Main.storyboard */,
 				B0533BDA1C8E9AAD002F3C82 /* Assets.xcassets */,
 				B0533BDC1C8E9AAD002F3C82 /* LaunchScreen.storyboard */,
 				B0533BDF1C8E9AAD002F3C82 /* Info.plist */,
-				B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */,
 			);
 			path = InstaFam;
+			sourceTree = "<group>";
+		};
+		B05945DD1C8EA70300C435A3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0533BD51C8E9AAD002F3C82 /* ViewController.swift */,
+				B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
