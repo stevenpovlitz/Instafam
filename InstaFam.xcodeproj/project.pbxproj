@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C5BE5A91FCC3D305FF5D08 /* Pods_InstaFam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0B0F95CC8B36289B835F79 /* Pods_InstaFam.framework */; };
 		B0533BD41C8E9AAD002F3C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0533BD31C8E9AAD002F3C82 /* AppDelegate.swift */; };
 		B0533BD61C8E9AAD002F3C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0533BD51C8E9AAD002F3C82 /* ViewController.swift */; };
 		B0533BD91C8E9AAD002F3C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0533BD71C8E9AAD002F3C82 /* Main.storyboard */; };
 		B0533BDB1C8E9AAD002F3C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0533BDA1C8E9AAD002F3C82 /* Assets.xcassets */; };
 		B0533BDE1C8E9AAD002F3C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0533BDC1C8E9AAD002F3C82 /* LaunchScreen.storyboard */; };
+		B05945DC1C8E9D6B00C435A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A35D8EC716134D324268A8A /* Pods-InstaFam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam.debug.xcconfig"; sourceTree = "<group>"; };
+		A03781028AA44B3BB4EEC0D9 /* Pods-InstaFam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFam.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam.release.xcconfig"; sourceTree = "<group>"; };
 		B0533BD01C8E9AAD002F3C82 /* InstaFam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0533BD31C8E9AAD002F3C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0533BD51C8E9AAD002F3C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		B0533BDA1C8E9AAD002F3C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0533BDD1C8E9AAD002F3C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0533BDF1C8E9AAD002F3C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE0B0F95CC8B36289B835F79 /* Pods_InstaFam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C5BE5A91FCC3D305FF5D08 /* Pods_InstaFam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F93036D6284C0F9F230C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B0F95CC8B36289B835F79 /* Pods_InstaFam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B831F47D48AA66B2829703B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A35D8EC716134D324268A8A /* Pods-InstaFam.debug.xcconfig */,
+				A03781028AA44B3BB4EEC0D9 /* Pods-InstaFam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0533BC71C8E9AAD002F3C82 = {
 			isa = PBXGroup;
 			children = (
 				B0533BD21C8E9AAD002F3C82 /* InstaFam */,
 				B0533BD11C8E9AAD002F3C82 /* Products */,
+				7B831F47D48AA66B2829703B /* Pods */,
+				46F93036D6284C0F9F230C23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				B0533BDA1C8E9AAD002F3C82 /* Assets.xcassets */,
 				B0533BDC1C8E9AAD002F3C82 /* LaunchScreen.storyboard */,
 				B0533BDF1C8E9AAD002F3C82 /* Info.plist */,
+				B05945DB1C8E9D6B00C435A3 /* LoginViewController.swift */,
 			);
 			path = InstaFam;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0533BE21C8E9AAD002F3C82 /* Build configuration list for PBXNativeTarget "InstaFam" */;
 			buildPhases = (
+				1743065389DCC58CB0AFB0FB /* Check Pods Manifest.lock */,
 				B0533BCC1C8E9AAD002F3C82 /* Sources */,
 				B0533BCD1C8E9AAD002F3C82 /* Frameworks */,
 				B0533BCE1C8E9AAD002F3C82 /* Resources */,
+				4BF27A6048C0EA44C446D14D /* Embed Pods Frameworks */,
+				FC05064D0CB1A960AB11BCBE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1743065389DCC58CB0AFB0FB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF27A6048C0EA44C446D14D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC05064D0CB1A960AB11BCBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFam/Pods-InstaFam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0533BCC1C8E9AAD002F3C82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05945DC1C8E9D6B00C435A3 /* LoginViewController.swift in Sources */,
 				B0533BD61C8E9AAD002F3C82 /* ViewController.swift in Sources */,
 				B0533BD41C8E9AAD002F3C82 /* AppDelegate.swift in Sources */,
 			);
@@ -246,6 +325,7 @@
 		};
 		B0533BE31C8E9AAD002F3C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A35D8EC716134D324268A8A /* Pods-InstaFam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaFam/Info.plist;
@@ -257,6 +337,7 @@
 		};
 		B0533BE41C8E9AAD002F3C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03781028AA44B3BB4EEC0D9 /* Pods-InstaFam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaFam/Info.plist;
@@ -285,6 +366,7 @@
 				B0533BE41C8E9AAD002F3C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
